@@ -172,7 +172,7 @@ twitch-videoad.js application/javascript
                                         if (qualityMenu) {
                                             qualityMenu.click();
                                         }
-                                        var lowQuality = document.querySelectorAll('input[data-a-target="tw-radio"');
+                                        var lowQuality = document.querySelectorAll('input[data-a-target="tw-radio"]');
                                         if (lowQuality) {
                                             var qualityToSelect = lowQuality.length - 3;
                                             if (e.data.value != null) {
